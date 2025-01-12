@@ -1,18 +1,19 @@
 backend:
-  name: git-gateway
-  branch: main # Branch yang akan diupdate (opsional; default ke main)
+  name: github
+  repo: sammil98/imaba  # Ganti dengan owner dan nama repository Anda
+  branch: main  # Branch yang akan diupdate (opsional; default ke main)
 
-media_folder: "public/images/uploads" # Folder tempat file yang diunggah pengguna disimpan
-public_folder: "/images/uploads" # Jalur folder relatif ke basis situs yang dibangun
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
 
 collections:
-  - name: "posts" # Digunakan di rute, misalnya /admin/collections/posts
-    label: "Posts" # Digunakan di UI
-    folder: "src/posts" # Jalur ke folder tempat dokumen disimpan
-    create: true # Izinkan pengguna membuat dokumen baru di koleksi ini
+  - name: "posts"
+    label: "Posts"
+    folder: "src/posts"
+    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # Bidang untuk setiap dokumen, biasanya di front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
