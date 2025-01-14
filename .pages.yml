@@ -1,5 +1,4 @@
 # pages.yml
-
 # Set the backend configuration
 backend:
   name: git-gateway
