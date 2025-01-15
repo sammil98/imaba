@@ -1,5 +1,5 @@
 ---
-# Teks Bergantian
+# Banner dengan Teks Bergantian dan Pengenalan Singkat
 banner:
   title: "IMABA"
   rotating_text:
@@ -7,10 +7,7 @@ banner:
     - "Setretanan"
     - "Mahasiswa Bangkalan"
     - "e Malang"
-
-# Pengenalan Singkat
-intro:
-  content: "Kami merupakan organisasi mahasiswa yang berasal dari Kabupaten Bangkalan dan sedang menempuh pendidikan di Malang. Berkomitmen untuk membangun jaringan silaturahmi, saling mendukung, dan berkontribusi bagi kemajuan masyarakat Bangkalan."
+  intro: "Kami merupakan organisasi mahasiswa yang berasal dari Kabupaten Bangkalan dan sedang menempuh pendidikan di Malang. Berkomitmen untuk membangun jaringan silaturahmi, saling mendukung, dan berkontribusi bagi kemajuan masyarakat Bangkalan."
 
 # Visi dan Misi
 vision_mission:

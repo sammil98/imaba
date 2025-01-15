@@ -1,29 +1,24 @@
 {{ define "main" }}
-  <!-- Banner dengan Teks Bergantian -->
+  <!-- Banner dengan Teks Bergantian dan Pengenalan Singkat -->
   <section class="section pt-14">
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-7 md:col-9 mb-8 text-center">
+          <!-- Teks IMABA -->
           <h1 class="mb-4 text-h3 lg:text-h1 font-bold">
             {{ .Params.banner.title | markdownify }}
           </h1>
-          <div class="rotating-text">
+
+          <!-- Teks Bergantian -->
+          <div class="rotating-text mb-6">
             {{ range .Params.banner.rotating_text }}
               <p class="text-lg">{{ . }}</p>
             {{ end }}
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Pengenalan Singkat -->
-  <section class="section">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="lg:col-8 md:col-10 text-center">
+          <!-- Pengenalan Singkat -->
           <p class="text-lg">
-            {{ .Params.intro.content | markdownify }}
+            {{ .Params.banner.intro | markdownify }}
           </p>
         </div>
       </div>
