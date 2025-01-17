@@ -25,23 +25,31 @@ struktur:
   pelindung:
     nama: "Bupati Bangkalan"
     jabatan: "Pelindung Organisasi"
+    foto: "/images/pengurus/bupati.jpg"
   pembina:
     nama: "Dr. Ahmad Budi"
     jabatan: "Pembina"
+    foto: "/images/pengurus/pembina.jpg"
   pengurus_harian:
-    - nama: "John Doe"
+    - nama: "Ainul Muzammil"
       jabatan: "Ketua Umum"
+      foto: "/images/pengurus/ketua.jpg"
     - nama: "Jane Doe"
       jabatan: "Wakil Ketua Umum"
+      foto: "/images/pengurus/wakil.jpg"
     - nama: "Alice Smith"
       jabatan: "Sekretaris Umum"
+      foto: "/images/pengurus/sekretaris.jpg"
     - nama: "Bob Johnson"
       jabatan: "Bendahara Umum"
+      foto: "/images/pengurus/bendahara.jpg"
   pengurus_distrik:
     - nama: "David Brown"
       jabatan: "Ketua Distrik A"
+      foto: "/images/pengurus/distrik_a.jpg"
     - nama: "Eva Green"
       jabatan: "Ketua Distrik B"
+      foto: "/images/pengurus/distrik_b.jpg"
 
 tujuan_nilai:
   title: "Tujuan dan Nilai Organisasi"
