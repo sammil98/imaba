@@ -20,10 +20,6 @@ weight = 3
 weight = 4
 name = "Halaman"
 
-[[main]]
-parent = "Halaman"
-name = "Dokumen"
-url = "/documents"
 
 [[main]]
 parent = "Halaman"
