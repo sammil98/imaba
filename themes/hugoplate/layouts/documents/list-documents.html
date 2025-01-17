@@ -1,0 +1,66 @@
+<div class="container dark:bg-gray-800 p-6 rounded-lg">
+    <h1 class="text-h1 dark:text-white">{{ .Page.Title }}</h1>
+    <div class="mt-6 space-y-4">
+        {{ range .Page.Pages }}
+        <div class="bg-theme-light dark:bg-darkmode-theme-light p-4 rounded-lg shadow">
+            <h2 class="text-h2 dark:text-white">{{ .Title }}</h2>
+            <p class="text-text dark:text-darkmode-text mt-2">{{ .Description }}</p>
+            <div class="mt-4 flex space-x-4">
+                <button
+                    onclick="loadPDF('{{ .Params.file_url }}')"
+                    class="btn btn-primary">
+                    Preview
+                </button>
+                <a href="{{ .Params.file_url }}" class="btn btn-outline-primary" download>
+                    Download
+                </a>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    <!-- Area untuk menampilkan preview PDF -->
+    <div id="pdf-preview" class="mt-6 bg-theme-light dark:bg-darkmode-theme-light p-6 rounded-lg shadow">
+        <p class="text-text dark:text-darkmode-text">Pilih tombol "Preview" untuk melihat dokumen.</p>
+    </div>
+</div>
+
+<!-- JavaScript untuk memuat PDF dengan PDF.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" integrity="sha512-..."></script>
+<script>
+    async function loadPDF(url) {
+        const pdfPreview = document.getElementById('pdf-preview');
+        pdfPreview.innerHTML = `
+            <div id="pdf-viewer" style="height: 600px;"></div>
+            <div class="mt-4">
+                <a href="${url}" class="btn btn-primary" download>Download Dokumen</a>
+            </div>
+        `;
+
+        // Load PDF menggunakan PDF.js
+        const loadingTask = pdfjsLib.getDocument(url);
+        loadingTask.promise.then(pdf => {
+            const viewer = document.getElementById('pdf-viewer');
+            for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+                pdf.getPage(pageNum).then(page => {
+                    const canvas = document.createElement('canvas');
+                    viewer.appendChild(canvas);
+                    const context = canvas.getContext('2d');
+                    const viewport = page.getViewport({ scale: 1.5 });
+
+                    canvas.height = viewport.height;
+                    canvas.width = viewport.width;
+
+                    const renderContext = {
+                        canvasContext: context,
+                        viewport: viewport
+                    };
+                    page.render(renderContext);
+                });
+            }
+        }).catch(error => {
+            console.error(error);
+            pdfPreview.innerHTML = `<p class="text-red-500">Gagal memuat dokumen.</p>`;
+        });
+    }
+</script>

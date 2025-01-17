@@ -22,6 +22,11 @@ name = "Halaman"
 
 [[main]]
 parent = "Halaman"
+name = "Dokumen"
+url = "/documents"
+
+[[main]]
+parent = "Halaman"
 name = "Elemen"
 url = "/elements"
 

@@ -46,15 +46,4 @@ struktur:
     - nama: "Moh. Abdus Salam"
       jabatan: "Ketua Umum Distrik UINMA"
       foto: "/images/pengurus/distrik_b.jpg"
-
-tujuan_nilai:
-  title: "Tujuan dan Nilai Organisasi"
-  tujuan:
-    - "Membangun jaringan silaturahmi antar mahasiswa Bangkalan di Malang Raya."
-    - "Meningkatkan kualitas pendidikan dan keterampilan anggota."
-    - "Berkontribusi bagi kemajuan masyarakat Bangkalan."
-  nilai:
-    - "Kekeluargaan: Menjalin hubungan yang harmonis antar anggota."
-    - "Integritas: Menjunjung tinggi kejujuran dan tanggung jawab."
-    - "Kemandirian: Berusaha mandiri dalam mencapai tujuan organisasi."
 ---

@@ -75,29 +75,4 @@
     </div>
   </div>
 </section>
-
-<!-- Tujuan dan Nilai Organisasi -->
-<section class="section">
-  <div class="container">
-    <h2 class="text-center text-h3 mb-8 dark:text-darkmode-dark">{{ .Params.tujuan_nilai.title }}</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div>
-        <h3 class="text-xl font-bold dark:text-darkmode-dark">Tujuan</h3>
-        <ul class="list-disc pl-5 dark:text-darkmode-text">
-          {{ range .Params.tujuan_nilai.tujuan }}
-            <li class="mb-2">{{ . }}</li>
-          {{ end }}
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-xl font-bold dark:text-darkmode-dark">Nilai</h3>
-        <ul class="list-disc pl-5 dark:text-darkmode-text">
-          {{ range .Params.tujuan_nilai.nilai }}
-            <li class="mb-2">{{ . }}</li>
-          {{ end }}
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
 {{ end }}
