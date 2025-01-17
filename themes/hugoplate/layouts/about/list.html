@@ -1,13 +1,78 @@
 {{ define "main" }}
-  <section class="section-sm">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="md:col-10 lg:col-7 text-center">
-          {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
-          <h2 class="h3 mb-6">{{ .Title }}</h2>
-          <div class="content">{{ .Content }}</div>
-        </div>
+<!-- Sejarah Organisasi -->
+<section class="section">
+  <div class="container">
+    <h2 class="text-center text-h3 mb-8 dark:text-darkmode-dark">{{ .Params.sejarah.title }}</h2>
+    <p class="text-lg dark:text-darkmode-text">{{ .Params.sejarah.content }}</p>
+  </div>
+</section>
+
+<!-- Visi dan Misi -->
+<section class="section">
+  <div class="container">
+    <h2 class="text-center text-h3 mb-8 dark:text-darkmode-dark">{{ .Params.visi_misi.title }}</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <h3 class="text-xl font-bold dark:text-darkmode-dark">Visi</h3>
+        <ul class="list-disc pl-5 dark:text-darkmode-text">
+          {{ range .Params.visi_misi.visi }}
+            <li class="mb-2">{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold dark:text-darkmode-dark">Misi</h3>
+        <ul class="list-disc pl-5 dark:text-darkmode-text">
+          {{ range .Params.visi_misi.misi }}
+            <li class="mb-2">{{ . }}</li>
+          {{ end }}
+        </ul>
       </div>
     </div>
-  </section>
-{{ end }}
+  </div>
+</section>
+
+<!-- Struktur Organisasi -->
+<section class="section">
+  <div class="container">
+    <h2 class="text-center text-h3 mb-8 dark:text-darkmode-dark">{{ .Params.struktur.title }}</h2>
+    <!-- Tampilkan struktur organisasi lengkap di sini -->
+  </div>
+</section>
+
+<!-- Tujuan dan Nilai Organisasi -->
+<section class="section">
+  <div class="container">
+    <h2 class="text-center text-h3 mb-8 dark:text-darkmode-dark">{{ .Params.tujuan_nilai.title }}</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <h3 class="text-xl font-bold dark:text-darkmode-dark">Tujuan</h3>
+        <ul class="list-disc pl-5 dark:text-darkmode-text">
+          {{ range .Params.tujuan_nilai.tujuan }}
+            <li class="mb-2">{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold dark:text-darkmode-dark">Nilai</h3>
+        <ul class="list-disc pl-5 dark:text-darkmode-text">
+          {{ range .Params.tujuan_nilai.nilai }}
+            <li class="mb-2">{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Prestasi dan Pencapaian -->
+<section class="section">
+  <div class="container">
+    <h2 class="text-center text-h3 mb-8 dark:text-darkmode-dark">{{ .Params.prestasi.title }}</h2>
+    <ul class="list-disc pl-5 dark:text-darkmode-text">
+      {{ range .Params.prestasi.daftar_prestasi }}
+        <li class="mb-2">{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+</section>

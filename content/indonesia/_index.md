@@ -35,14 +35,16 @@ blog:
 # Struktur
 struktur:
   title: "Struktur Organisasi"
-  pengurus:
-    - nama: "John Doe"
-      jabatan: "Ketua"
-      foto: "/images/pengurus/ketua.jpg"
-    - nama: "Jane Doe"
-      jabatan: "Wakil Ketua"
-      foto: "/images/pengurus/wakil.jpg"
-    - nama: "Alice Smith"
-      jabatan: "Sekretaris"
-      foto: "/images/pengurus/sekretaris.jpg"
+  pelindung:
+    nama: "Bupati Kabupaten Bangkalan"
+    jabatan: "Pelindung Organisasi"
+    foto: "/images/pengurus/bupati.jpg"
+  ketua:
+    nama: "Ainul Muzammil"
+    jabatan: "Ketua Umum"
+    foto: "/images/pengurus/ketua.jpg"
+  wakil:
+    nama: "Jane Doe"
+    jabatan: "Wakil Ketua"
+    foto: "/images/pengurus/wakil.jpg"
 ---
