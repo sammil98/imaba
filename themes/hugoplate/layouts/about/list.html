@@ -40,7 +40,7 @@
     <!-- Pelindung -->
     <div class="text-center mb-8">
       <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg p-6">
-        <img src="{{ .Params.struktur.pelindung.foto }}" alt="{{ .Params.struktur.pelindung.nama }}" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
+        <img src="{{ .Params.struktur.pelindung.image }}" alt="{{ .Params.struktur.pelindung.nama }}" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
         <h3 class="text-xl font-bold dark:text-darkmode-dark">{{ .Params.struktur.pelindung.nama }}</h3>
         <p class="text-gray-600 dark:text-darkmode-text">{{ .Params.struktur.pelindung.jabatan }}</p>
       </div>
@@ -52,7 +52,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {{ range .Params.struktur.pengurus_harian }}
           <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg p-6">
-            <img src="{{ .foto }}" alt="{{ .nama }}" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
+            <img src="{{ .image }}" alt="{{ .nama }}" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
             <h4 class="text-xl font-bold dark:text-darkmode-dark">{{ .nama }}</h4>
             <p class="text-gray-600 dark:text-darkmode-text">{{ .jabatan }}</p>
           </div>
@@ -66,7 +66,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {{ range .Params.struktur.pengurus_distrik }}
           <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg p-6">
-            <img src="{{ .foto }}" alt="{{ .nama }}" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
+            <img src="{{ .image }}" alt="{{ .nama }}" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
             <h4 class="text-xl font-bold dark:text-darkmode-dark">{{ .nama }}</h4>
             <p class="text-gray-600 dark:text-darkmode-text">{{ .jabatan }}</p>
           </div>

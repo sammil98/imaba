@@ -101,7 +101,7 @@
     <!-- Baris 1: Pelindung Organisasi -->
     <div class="flex justify-center mb-8">
       <div class="text-center">
-        <img src="{{ .Params.struktur.pelindung.foto }}" alt="{{ .Params.struktur.pelindung.nama }}" class="rounded-lg mb-4 mx-auto w-48 h-48 object-cover">
+        <img src="{{ .Params.struktur.pelindung.image }}" alt="{{ .Params.struktur.pelindung.nama }}" class="rounded-lg mb-4 mx-auto w-48 h-48 object-cover">
         <h3 class="text-xl font-bold dark:text-darkmode-dark">{{ .Params.struktur.pelindung.nama }}</h3>
         <p class="text-gray-600 dark:text-darkmode-text">{{ .Params.struktur.pelindung.jabatan }}</p>
       </div>
@@ -111,14 +111,14 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <!-- Ketua -->
       <div class="text-center">
-        <img src="{{ .Params.struktur.ketua.foto }}" alt="{{ .Params.struktur.ketua.nama }}" class="rounded-lg mb-4 mx-auto w-48 h-48 object-cover">
+        <img src="{{ .Params.struktur.ketua.image }}" alt="{{ .Params.struktur.ketua.nama }}" class="rounded-lg mb-4 mx-auto w-48 h-48 object-cover">
         <h3 class="text-xl font-bold dark:text-darkmode-dark">{{ .Params.struktur.ketua.nama }}</h3>
         <p class="text-gray-600 dark:text-darkmode-text">{{ .Params.struktur.ketua.jabatan }}</p>
       </div>
 
       <!-- Wakil Ketua -->
       <div class="text-center">
-        <img src="{{ .Params.struktur.wakil.foto }}" alt="{{ .Params.struktur.wakil.nama }}" class="rounded-lg mb-4 mx-auto w-48 h-48 object-cover">
+        <img src="{{ .Params.struktur.wakil.image }}" alt="{{ .Params.struktur.wakil.nama }}" class="rounded-lg mb-4 mx-auto w-48 h-48 object-cover">
         <h3 class="text-xl font-bold dark:text-darkmode-dark">{{ .Params.struktur.wakil.nama }}</h3>
         <p class="text-gray-600 dark:text-darkmode-text">{{ .Params.struktur.wakil.jabatan }}</p>
       </div>
