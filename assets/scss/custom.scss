@@ -3,98 +3,93 @@
     font-size: 4rem; // Sesuaikan ukuran sesuai kebutuhan
     font-weight: 700; // Tebal
     margin-bottom: 1rem; // Jarak bawah
-  }
-  
-  // Teks Bergantian
-  .rotating-text {
+}
+
+// Teks Bergantian
+.rotating-text {
     position: relative;
     height: 2em; // Sesuaikan tinggi sesuai kebutuhan
     overflow: hidden;
     margin-bottom: 1.5rem; // Jarak bawah
-  
+
     p {
-      position: absolute;
-      width: 100%;
-      opacity: 0;
-      animation: rotateText 12s infinite; // Sesuaikan durasi animasi
-      font-size: 1.5rem; // Ukuran teks
-      color: #333; // Warna teks
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        animation: rotateText 12s infinite; // Sesuaikan durasi animasi
+        font-size: 1.5rem; // Ukuran teks
+        color: #333; // Warna teks
     }
-  
+
     p:nth-child(1) {
-      animation-delay: 0s;
+        animation-delay: 0s;
     }
     p:nth-child(2) {
-      animation-delay: 3s;
+        animation-delay: 3s;
     }
     p:nth-child(3) {
-      animation-delay: 6s;
+        animation-delay: 6s;
     }
     p:nth-child(4) {
-      animation-delay: 9s;
+        animation-delay: 9s;
     }
-  }
-  
-  // Animasi Teks Bergantian
-  @keyframes rotateText {
+}
+
+// Animasi Teks Bergantian
+@keyframes rotateText {
     0% {
-      opacity: 0;
-      transform: translateY(100%);
+        opacity: 0;
+        transform: translateY(100%);
     }
     5% {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
     25% {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
     30% {
-      opacity: 0;
-      transform: translateY(-100%);
+        opacity: 0;
+        transform: translateY(-100%);
     }
     100% {
-      opacity: 0;
-      transform: translateY(-100%);
+        opacity: 0;
+        transform: translateY(-100%);
     }
-  }
-  
-  // Pengenalan Singkat
-  .text-lg {
+}
+
+// Pengenalan Singkat
+.text-lg {
     font-size: 1.25rem; // Sesuaikan ukuran sesuai kebutuhan
     line-height: 1.75; // Jarak antar baris
     color: #555; // Warna teks
-  }
-  
-  // Visi dan Misi
-  .vision-mission {
+}
+
+// Visi dan Misi
+.vision-mission {
     .vision, .mission {
-      background-color: var(--theme-light); // Sesuaikan dengan tema
-      border-radius: 0.5rem;
-      padding: 2.5rem;
-      margin-bottom: 1.5rem;
-  
-      h2 {
-        font-size: 1.5rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-      }
-  
-      ul {
-        list-style: none;
-        padding-left: 0;
-  
-        li {
-          position: relative;
-          margin-bottom: 1rem;
-          padding-left: 1.5rem;
-  
-          i {
-            position: absolute;
-            left: 0;
-            top: 0.375rem;
-          }
+        background-color: var(--theme-light); // Sesuaikan dengan tema
+        border-radius: 0.5rem;
+        padding: 2.5rem;
+        margin-bottom: 1.5rem;
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
         }
-      }
+
+        ol {
+            list-style-type: decimal; // Nomor urut
+            padding-left: 1.5rem; // Jarak dari kiri
+            margin-bottom: 1.5rem; // Jarak bawah
+
+            li {
+                margin-bottom: 0.75rem; // Jarak antar item
+                font-size: 1rem; // Ukuran teks
+                color: #333; // Warna teks
+            }
+        }
     }
-  }
+}
