@@ -14,14 +14,14 @@ vision_mission:
   vision:
     title: "Visi"
     points:
-      - "Menjalin hubungan silaturahmi yang harmonis antar anggota (khususnya) dan mahasiswa Bangkalan (umumnya)."
-      - "Saling mendukung, berbagi pengalaman, dan pengetahuan untuk menciptakan generasi muda yang berkualitas."
+      - "Menciptakan hubungan silaturahmi yang lebih harmonis antar anggota (pada khususnya) dan mahasiswa Bangkalan (pada umumnya)."
+      - "Saling mendukung, berbagi pengalaman, dan pengetahuan untuk terciptanya generasi muda yang berkualitas dan mampu mengimplementasikannya kepada masyarakat daerah."
   mission:
     title: "Misi"
     points:
       - "Menyediakan wadah komunikasi dan informasi antar anggota IMABA Malang Raya."
-      - "Mengembangkan ruang diskusi anggota dalam hal ilmu dan pengetahuan."
+      - "Mengembangkan ruang diskusi anggota IMABA Malang Raya dalam hal ilmu dan pengetahuan."
       - "Memperlihatkan eksistensi IMABA Malang Raya kepada masyarakat daerah."
-      - "Berperan aktif dalam dunia kemahasiswaan, perguruan tinggi, dan kepemudaan."
+      - "Berperan aktif dalam dunia kemahasiswaan, perguruan tinggi, dan kepemudaan untuk menopang pembangunan daerah."
       - "Ikut terlibat aktif dalam penyelesaian masalah sosial masyarakat dan daerah."
 ---
