@@ -17,7 +17,7 @@ visi_misi:
     - "Menyediakan wadah komunikasi dan informasi antar anggota IMABA Malang Raya."
     - "Mengembangkan ruang diskusi anggota dalam hal ilmu dan pengetahuan."
     - "Memperlihatkan eksistensi IMABA Malang Raya kepada masyarakat daerah."
-    - "Berperan aktif dalam dunia kemahasiswaan, perguruan tinggi, dan kepemudaan."
+    - "Berperan aktif dalam dunia kemahasiswaan, perguruan tinggi, dan kepemudaan untuk menopang pembangunan daerah."
     - "Ikut terlibat aktif dalam penyelesaian masalah sosial masyarakat dan daerah."
 
 struktur:
@@ -26,10 +26,6 @@ struktur:
     nama: "Bupati Bangkalan"
     jabatan: "Pelindung Organisasi"
     foto: "/images/pengurus/bupati.jpg"
-  pembina:
-    nama: "Dr. Ahmad Budi"
-    jabatan: "Pembina"
-    foto: "/images/pengurus/pembina.jpg"
   pengurus_harian:
     - nama: "Ainul Muzammil"
       jabatan: "Ketua Umum"
@@ -40,15 +36,15 @@ struktur:
     - nama: "Alice Smith"
       jabatan: "Sekretaris Umum"
       foto: "/images/pengurus/sekretaris.jpg"
-    - nama: "Bob Johnson"
+    - nama: "Hasim"
       jabatan: "Bendahara Umum"
       foto: "/images/pengurus/bendahara.jpg"
   pengurus_distrik:
-    - nama: "David Brown"
-      jabatan: "Ketua Distrik A"
+    - nama: "Ach. Syaifullah"
+      jabatan: "Ketua Umum Distrik UNISMA"
       foto: "/images/pengurus/distrik_a.jpg"
-    - nama: "Eva Green"
-      jabatan: "Ketua Distrik B"
+    - nama: "Moh. Abdus Salam"
+      jabatan: "Ketua Umum Distrik UINMA"
       foto: "/images/pengurus/distrik_b.jpg"
 
 tujuan_nilai:
@@ -61,11 +57,4 @@ tujuan_nilai:
     - "Kekeluargaan: Menjalin hubungan yang harmonis antar anggota."
     - "Integritas: Menjunjung tinggi kejujuran dan tanggung jawab."
     - "Kemandirian: Berusaha mandiri dalam mencapai tujuan organisasi."
-
-prestasi:
-  title: "Prestasi dan Pencapaian"
-  daftar_prestasi:
-    - "Juara 1 Lomba Debat Mahasiswa Nasional 2022."
-    - "Penghargaan Bakti Sosial Terbaik 2023."
-    - "Menyelenggarakan Seminar Nasional dengan tema 'Pemuda dan Pembangunan Daerah'."
 ---
