@@ -35,14 +35,13 @@
             <h2 class="mb-4 text-h4">
               {{ .Params.vision_mission.vision.title | markdownify }}
             </h2>
-            <ul>
+            <ol>
               {{ range .Params.vision_mission.vision.points }}
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
+                <li class="mb-4">
                   {{ . | markdownify }}
                 </li>
               {{ end }}
-            </ul>
+            </ol>
           </div>
         </div>
 
@@ -52,14 +51,13 @@
             <h2 class="mb-4 text-h4">
               {{ .Params.vision_mission.mission.title | markdownify }}
             </h2>
-            <ul>
+            <ol>
               {{ range .Params.vision_mission.mission.points }}
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
+                <li class="mb-4">
                   {{ . | markdownify }}
                 </li>
               {{ end }}
-            </ul>
+            </ol>
           </div>
         </div>
       </div>
