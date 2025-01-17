@@ -36,7 +36,46 @@
 <section class="section">
   <div class="container">
     <h2 class="text-center text-h3 mb-8 dark:text-darkmode-dark">{{ .Params.struktur.title }}</h2>
-    <!-- Tampilkan struktur organisasi lengkap di sini -->
+    
+    <!-- Pelindung -->
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-bold dark:text-darkmode-dark">Pelindung</h3>
+      <p class="text-gray-600 dark:text-darkmode-text">{{ .Params.struktur.pelindung.nama }}</p>
+      <p class="text-gray-600 dark:text-darkmode-text">{{ .Params.struktur.pelindung.jabatan }}</p>
+    </div>
+
+    <!-- Pembina -->
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-bold dark:text-darkmode-dark">Pembina</h3>
+      <p class="text-gray-600 dark:text-darkmode-text">{{ .Params.struktur.pembina.nama }}</p>
+      <p class="text-gray-600 dark:text-darkmode-text">{{ .Params.struktur.pembina.jabatan }}</p>
+    </div>
+
+    <!-- Pengurus Harian -->
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-bold dark:text-darkmode-dark">Pengurus Harian</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {{ range .Params.struktur.pengurus_harian }}
+          <div class="text-center">
+            <h4 class="text-xl font-bold dark:text-darkmode-dark">{{ .nama }}</h4>
+            <p class="text-gray-600 dark:text-darkmode-text">{{ .jabatan }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Pengurus Distrik -->
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-bold dark:text-darkmode-dark">Pengurus Distrik</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {{ range .Params.struktur.pengurus_distrik }}
+          <div class="text-center">
+            <h4 class="text-xl font-bold dark:text-darkmode-dark">{{ .nama }}</h4>
+            <p class="text-gray-600 dark:text-darkmode-text">{{ .jabatan }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
   </div>
 </section>
 
