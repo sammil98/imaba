@@ -38,13 +38,13 @@ struktur:
   pelindung:
     nama: "Bupati Kabupaten Bangkalan"
     jabatan: "Pelindung Organisasi"
-    image: "/images/pengurus/avatar.png"
+    foto: "/images/pengurus/avatar.png"
   ketua:
     nama: "Ainul Muzammil"
     jabatan: "Ketua Umum"
-    image: "/images/pengurus/ketua.jpg"
+    foto: "/images/pengurus/ketua.jpg"
   wakil:
     nama: "Jane Doe"
     jabatan: "Wakil Ketua"
-    image: "/images/pengurus/wakil.jpg"
+    foto: "/images/pengurus/wakil.jpg"
 ---
