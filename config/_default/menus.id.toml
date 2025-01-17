@@ -1,0 +1,63 @@
+############# Navigasi Bahasa Indonesia ##############
+
+# menu utama
+[[main]]
+name = "Beranda"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Tentang Kami"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 3
+
+[[main]]
+weight = 4
+name = "Halaman"
+
+[[main]]
+parent = "Halaman"
+name = "Elemen"
+url = "/elements"
+
+[[main]]
+parent = "Halaman"
+name = "Kontak"
+url = "/contact"
+
+[[main]]
+parent = "Halaman"
+name = "Penulis"
+url = "/authors"
+
+[[main]]
+parent = "Halaman"
+name = "Kategori"
+url = "/categories"
+
+[[main]]
+parent = "Halaman"
+name = "Halaman 404"
+url = "/404"
+
+
+# menu footer
+[[footer]]
+name = "Tentang Kami"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Blog"
+url = "/blog"
+weight = 2
+
+[[footer]]
+name = "Kebijakan Privasi"
+url = "/privacy-policy"
+weight = 3

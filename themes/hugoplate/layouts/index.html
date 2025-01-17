@@ -29,37 +29,37 @@
   <section class="section">
     <div class="container">
       <div class="row">
-        <!-- Visi -->
-        <div class="md:col-6 mb-8">
-          <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-            <h2 class="mb-4 text-h4">
-              {{ .Params.vision_mission.vision.title | markdownify }}
-            </h2>
-            <ol>
-              {{ range .Params.vision_mission.vision.points }}
-                <li class="mb-4">
-                  {{ . | markdownify }}
-                </li>
-              {{ end }}
-            </ol>
-          </div>
-        </div>
+       <!-- Visi -->
+<div class="md:col-6 mb-8">
+  <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+    <h2 class="mb-4 text-h4">
+      {{ .Params.vision_mission.vision.title | markdownify }}
+    </h2>
+    <ol class="list-decimal pl-5"> <!-- Tambahkan kelas list-decimal dan pl-5 -->
+      {{ range .Params.vision_mission.vision.points }}
+        <li class="mb-4">
+          {{ . | markdownify }}
+        </li>
+      {{ end }}
+    </ol>
+  </div>
+</div>
 
-        <!-- Misi -->
-        <div class="md:col-6 mb-8">
-          <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-            <h2 class="mb-4 text-h4">
-              {{ .Params.vision_mission.mission.title | markdownify }}
-            </h2>
-            <ol>
-              {{ range .Params.vision_mission.mission.points }}
-                <li class="mb-4">
-                  {{ . | markdownify }}
-                </li>
-              {{ end }}
-            </ol>
-          </div>
-        </div>
+<!-- Misi -->
+<div class="md:col-6 mb-8">
+  <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+    <h2 class="mb-4 text-h4">
+      {{ .Params.vision_mission.mission.title | markdownify }}
+    </h2>
+    <ol class="list-decimal pl-5"> <!-- Tambahkan kelas list-decimal dan pl-5 -->
+      {{ range .Params.vision_mission.mission.points }}
+        <li class="mb-4">
+          {{ . | markdownify }}
+        </li>
+      {{ end }}
+    </ol>
+  </div>
+</div>
       </div>
     </div>
   </section>
