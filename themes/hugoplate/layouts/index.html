@@ -29,37 +29,80 @@
   <section class="section">
     <div class="container">
       <div class="row">
-       <!-- Visi -->
-<div class="md:col-6 mb-8">
-  <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-    <h2 class="mb-4 text-h4">
-      {{ .Params.vision_mission.vision.title | markdownify }}
-    </h2>
-    <ol class="list-decimal pl-5"> <!-- Tambahkan kelas list-decimal dan pl-5 -->
-      {{ range .Params.vision_mission.vision.points }}
-        <li class="mb-4">
-          {{ . | markdownify }}
-        </li>
-      {{ end }}
-    </ol>
-  </div>
-</div>
+        <!-- Visi -->
+        <div class="md:col-6 mb-8">
+          <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+            <h2 class="mb-4 text-h4">
+              {{ .Params.vision_mission.vision.title | markdownify }}
+            </h2>
+            <ol class="list-decimal pl-5">
+              {{ range .Params.vision_mission.vision.points }}
+                <li class="mb-4">
+                  {{ . | markdownify }}
+                </li>
+              {{ end }}
+            </ol>
+          </div>
+        </div>
 
-<!-- Misi -->
-<div class="md:col-6 mb-8">
-  <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-    <h2 class="mb-4 text-h4">
-      {{ .Params.vision_mission.mission.title | markdownify }}
-    </h2>
-    <ol class="list-decimal pl-5"> <!-- Tambahkan kelas list-decimal dan pl-5 -->
-      {{ range .Params.vision_mission.mission.points }}
-        <li class="mb-4">
-          {{ . | markdownify }}
-        </li>
-      {{ end }}
-    </ol>
-  </div>
-</div>
+        <!-- Misi -->
+        <div class="md:col-6 mb-8">
+          <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+            <h2 class="mb-4 text-h4">
+              {{ .Params.vision_mission.mission.title | markdownify }}
+            </h2>
+            <ol class="list-decimal pl-5">
+              {{ range .Params.vision_mission.mission.points }}
+                <li class="mb-4">
+                  {{ . | markdownify }}
+                </li>
+              {{ end }}
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kegiatan Terbaru -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center text-h3 mb-8">{{ .Params.kegiatan.title }}</h2>
+      <p class="text-center text-lg">
+        {{ .Params.kegiatan.message }}
+      </p>
+    </div>
+  </section>
+
+  <!-- Blog (Berita Terbaru) -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center text-h3 mb-8">{{ .Params.blog.title }}</h2>
+      <div class="row">
+        {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+          <div class="md:col-4 mb-8">
+            {{ partial "components/blog-card" . }}
+          </div>
+        {{ end }}
+      </div>
+      <div class="text-center mt-8">
+        <a href="/blog" class="btn btn-primary">{{ .Params.blog.button_text }}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Struktur Singkat Organisasi -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center text-h3 mb-8">{{ .Params.struktur.title }}</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {{ range .Params.struktur.pengurus }}
+          <div class="text-center">
+            <img src="{{ .foto }}" alt="{{ .nama }}" class="rounded-lg mb-4 mx-auto w-48 h-48 object-cover">
+            <h3 class="text-xl font-bold">{{ .nama }}</h3>
+            <p class="text-gray-600">{{ .jabatan }}</p>
+          </div>
+        {{ end }}
       </div>
     </div>
   </section>
