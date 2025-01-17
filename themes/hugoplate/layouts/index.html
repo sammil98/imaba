@@ -86,7 +86,9 @@
         {{ end }}
       </div>
       <div class="text-center mt-8">
-        <a href="/blog" class="btn btn-primary dark:text-darkmode-text">{{ .Params.blog.button_text }}</a>
+        <a href="/blog" class="btn btn-primary dark:bg-darkmode-primary dark:text-darkmode-text dark:hover:bg-darkmode-primary-dark">
+          {{ .Params.blog.button_text }}
+        </a>
       </div>
     </div>
   </section>

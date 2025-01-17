@@ -4,9 +4,3 @@ languageName = "Id"
 languageCode = "id-id"
 contentDir = "content/indonesia"
 weight = 1
-################ English language ##################
-[en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 2
