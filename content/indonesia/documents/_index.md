@@ -1,9 +1,16 @@
 ---
 title: "Dokumen Organisasi"
-description: "Dokumen resmi IMABA Malang Raya"
-draft: false
+description: "Berikut adalah daftar dokumen yang dapat Anda akses langsung di halaman ini."
 ---
 
-## Daftar Dokumen
+{{< tabs >}}
 
-Berikut adalah daftar dokumen resmi IMABA Malang Raya:
+{{ $pdfPath := "assets/document" }}
+{{ range readDir $pdfPath }}
+{{< tab (replace .Name ".pdf" "") >}}
+#### {{ .Name }}
+<iframe src="/pdf/{{ .Name }}" width="100%" height="600px" style="border: none;"></iframe>
+{{< /tab >}}
+{{ end }}
+
+{{< /tabs >}}
