@@ -7,5 +7,3 @@ draft: false
 ## Daftar Dokumen
 
 Berikut adalah daftar dokumen resmi IMABA Malang Raya:
-
-{{< file-list >}}
