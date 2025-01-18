@@ -7,7 +7,7 @@ description: "Berikut adalah daftar dokumen yang dapat Anda akses langsung di ha
 
 {{< tab "Modul Pengenalan" >}}
 #### Modul Pengenalan Umum IMABA
-<iframe src="/asssets/documents/Modul-IMABA.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="https://drive.google.com/drive/u/0/folders/182wHGExtYv7_cKKSRUN0oiOb0bb62vr2/preview" width="100%" height="600px"></iframe>
 {{< /tab >}}
 
 {{< tab "Document 2" >}}
