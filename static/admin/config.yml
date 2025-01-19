@@ -32,11 +32,12 @@ collections:
     fields:
       - { name: "title", label: "Judul", widget: "string", required: true }
       - { name: "date", label: "Tanggal", widget: "datetime", default: "{{ now }}" }
-      - { name: "author", label: "Penulis", widget: "relation", collection: "authors", search_fields: ["name"], value_field: "username", required: true }
+      - { name: "author", label: "Penulis", widget: "string", required: true }
       - { name: "description", label: "Deskripsi", widget: "text", required: true }
-      - { name: "body", label: "Konten", widget: "markdown", required: true }
       - { name: "image", label: "Gambar Utama", widget: "image", required: true }
+      - { name: "categories", label: "Kategori", widget: "list", required: true }
       - { name: "tags", label: "Tag", widget: "list", required: true }
+      - { name: "body", label: "Konten", widget: "markdown", required: true }
 
   # Koleksi untuk Pages
   - name: "pages"
