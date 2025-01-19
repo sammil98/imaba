@@ -20,10 +20,6 @@ collections:
       - { name: "name", label: "Nama Lengkap", widget: "string", required: true }
       - { name: "bio", label: "Deskripsi Diri", widget: "text", required: true }
       - { name: "avatar", label: "Foto Profil", widget: "image", required: true }
-      - { name: "social_media", label: "Sosial Media", widget: "object", fields:
-          - { name: "twitter", label: "Twitter", widget: "string", required: false }
-          - { name: "instagram", label: "Instagram", widget: "string", required: false }
-          - { name: "linkedin", label: "LinkedIn", widget: "string", required: false }
 
   # Koleksi untuk Blog
   - name: "blog"
