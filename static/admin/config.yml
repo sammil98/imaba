@@ -24,7 +24,6 @@ collections:
           - { name: "twitter", label: "Twitter", widget: "string", required: false }
           - { name: "instagram", label: "Instagram", widget: "string", required: false }
           - { name: "linkedin", label: "LinkedIn", widget: "string", required: false }
-        }
 
   # Koleksi untuk Blog
   - name: "blog"
