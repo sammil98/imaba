@@ -1,6 +1,6 @@
 ---
-title: "Contact"
+title: "Kontak Kami"
 meta_title: ""
-description: "this is meta description"
+description: "Hubungi Ikatan Mahasiswa Bangkalan"
 draft: false
 ---

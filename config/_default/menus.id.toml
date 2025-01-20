@@ -18,38 +18,17 @@ weight = 3
 
 [[main]]
 weight = 4
-name = "Halaman"
+name = "Informasi Lainnya"
 
 [[main]]
-parent = "Halaman"
-name = "Documents"
+parent = "Informasi Lainnya"
+name = "Dokumen Organisasi"
 url = "/documents"
 
 [[main]]
-parent = "Halaman"
-name = "Elemen"
-url = "/elements"
-
-[[main]]
-parent = "Halaman"
-name = "Kontak"
-url = "/contact"
-
-[[main]]
-parent = "Halaman"
-name = "Penulis"
+parent = "Informasi Lainnya"
+name = "Penulis Kami"
 url = "/authors"
-
-[[main]]
-parent = "Halaman"
-name = "Kategori"
-url = "/categories"
-
-[[main]]
-parent = "Halaman"
-name = "Halaman 404"
-url = "/404"
-
 
 # menu footer
 [[footer]]
@@ -58,11 +37,11 @@ url = "/about"
 weight = 1
 
 [[footer]]
-name = "Blog"
-url = "/blog"
+name = "Kebijakan Privasi"
+url = "/privacy-policy"
 weight = 2
 
 [[footer]]
-name = "Kebijakan Privasi"
-url = "/privacy-policy"
+name = "Kontak Kami"
+url = "/contact"
 weight = 3

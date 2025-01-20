@@ -2,6 +2,9 @@
 title: "Dokumen Organisasi"
 description: "Berikut adalah daftar dokumen yang dapat Anda akses langsung di halaman ini."
 ---
+{{< notice "info" >}}
+Temukan Dokumen yang Anda Butuhkan disini !!.
+{{< /notice >}}
 
 {{< tabs >}}
 
