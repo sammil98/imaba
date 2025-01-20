@@ -3,32 +3,16 @@ backend:
   branch: main
 
 # Pengaturan default untuk media folder dan public folder
-media_folder: "assets/images"  # Folder default untuk menyimpan gambar
-public_folder: "/images"       # Path publik default untuk gambar
+media_folder: "assets/images/blog"  # Folder untuk menyimpan gambar blog
+public_folder: "/images/blog"       # Path publik untuk gambar blog
 
 collections:
-  # Koleksi untuk Authors
-  - name: "authors"
-    label: "Penulis"
-    folder: "content/indonesia/authors"
-    create: true
-    identifier_field: "username"  # Field unik untuk mengidentifikasi penulis
-    media_folder: "assets/images/author"  # Folder untuk menyimpan gambar penulis
-    public_folder: "/images/author"       # Path publik untuk gambar penulis
-    fields:
-      - { name: "username", label: "Username", widget: "string", required: true }
-      - { name: "name", label: "Nama Lengkap", widget: "string", required: true }
-      - { name: "bio", label: "Deskripsi Diri", widget: "text", required: true }
-      - { name: "avatar", label: "Foto Profil", widget: "image", required: true }
-
   # Koleksi untuk Blog
   - name: "blog"
     label: "Blog"
     folder: "content/indonesia/blog"
     create: true
     identifier_field: "slug"  # Field unik untuk mengidentifikasi postingan
-    media_folder: "assets/images/blog"  # Folder untuk menyimpan gambar blog
-    public_folder: "/images/blog"       # Path publik untuk gambar blog
     fields:
       - { name: "title", label: "Judul", widget: "string", required: true }
       - { name: "date", label: "Tanggal", widget: "datetime", default: "{{ now }}" }
@@ -38,17 +22,3 @@ collections:
       - { name: "categories", label: "Kategori", widget: "list", required: true }
       - { name: "tags", label: "Tag", widget: "list", required: true }
       - { name: "body", label: "Konten", widget: "markdown", required: true }
-
-  # Koleksi untuk Pages
-  - name: "pages"
-    label: "Pages"
-    folder: "content/indonesia/pages"
-    create: true
-    identifier_field: "slug"  # Field unik untuk mengidentifikasi halaman
-    media_folder: "assets/images/pages"  # Folder untuk menyimpan gambar pages
-    public_folder: "/images/pages"       # Path publik untuk gambar pages
-    fields:
-      - { name: "title", label: "Judul", widget: "string", required: true }
-      - { name: "description", label: "Deskripsi", widget: "text", required: true }
-      - { name: "content", label: "Konten", widget: "markdown", required: true }
-      - { name: "image", label: "Gambar Utama", widget: "image", required: true }
