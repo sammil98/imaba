@@ -71,22 +71,15 @@
     <p class="text-center text-lg dark:text-darkmode-text">
       {{ .Params.kegiatan.message }}
     </p>
-    {{< slider dir="images/kegiatan" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-    {{ range .Params.kegiatan.list }}
-      <div class="swiper-slide">
-        <h3 class="text-center text-h4 dark:text-darkmode-dark">{{ .title }}</h3>
-        <p class="text-center text-lg dark:text-darkmode-text">
-          {{ .message }}
-          {{ if eq .status "coming soon" }}
-            <strong>(Coming Soon)</strong>
-          {{ end }}
-        </p>
-        <div class="text-center">
-          <img src="{{ .image }}" alt="Gambar Kegiatan" class="mx-auto">
-        </div>
-      </div>
-    {{ end }}
-    {{< /slider >}}
+    {{ .Content }}
+    <hr class="my-8">
+    <h2 class="text-center text-h3 mb-8 dark:text-darkmode-dark">{{ .Params.acara.title }}</h2>
+    <p class="text-center text-lg dark:text-darkmode-text">
+      {{ .Params.acara.message }} <strong>(Coming Soon)</strong>
+    </p>
+    <div class="text-center">
+      <img src="{{ .Params.acara.image }}" alt="Gambar Acara" class="mx-auto">
+    </div>
   </div>
 </section>
 
