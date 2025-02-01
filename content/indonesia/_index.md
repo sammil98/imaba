@@ -27,32 +27,7 @@ vision_mission:
 # Kegiatan
 kegiatan:
   title: "Kegiatan Terbaru"
-  message: "Berikut adalah kegiatan kami."
-  list:
-    - title: "Pelantikan"
-      message: "Pelantikan Pengurus Distrik UIN 24"
-      image: "images/kegiatan/kepenulisan-makalah-uin-24.jpeg"
-      status: "completed"
-    - title: "Buka Stand"
-      message: "Membuka Stand IMABA di UIN Kampus 3"
-      image: "images/kegiatan/stand-kampus-3-uin-24.jpeg"
-      status: "completed"
-    - title: "Kepenulisan"
-      message: "Distrik UIN Melatih Kepenulisan Makalah"
-      image: "images/kegiatan/kepenulisan-makalah-uin-24.jpeg"
-      status: "completed"
-    - title: "Maulid Nabi"
-      message: "Distrik UIN Memperingati Maulid Nabi"
-      image: "images/kegiatan/maulid-uin-24.jpeg"
-      status: "completed"
-    - title: "Makrab"
-      message: "Distrik UIN Mengadakan Malam Keakraban Anggota"
-      image: "images/kegiatan/makrab-uin-24.jpeg"
-      status: "completed"
-    - title: "Lomba SeKabupaten Bangkalan"
-      message: "Deskripsi kegiatan 3."
-      image: "images/kegiatan/kegiatan3-image.jpg"
-      status: "coming soon"
+  message: "Dokumentasi kegiatan terbaru akan segera diunggah. Pantau terus website kami untuk info terkini!"
 # Blog
 blog:
   title: "Berita Terbaru"
