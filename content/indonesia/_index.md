@@ -73,4 +73,3 @@ struktur:
     jabatan: "Wakil Ketua"
     image: "/images/pengurus/wakil.jpg"
 ---
-{{< slider dir="images/kegiatan" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
