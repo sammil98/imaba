@@ -71,7 +71,24 @@
     <p class="text-center text-lg dark:text-darkmode-text">
       {{ .Params.kegiatan.message }}
     </p>
-    {{ .Content }}
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {{ range .Params.kegiatan.list }}
+          <div class="swiper-slide">
+            <h3 class="text-center text-h4 dark:text-darkmode-dark">{{ .title }}</h3>
+            <p class="text-center text-lg dark:text-darkmode-text">{{ .message }}</p>
+            <div class="text-center">
+              <img src="{{ .image }}" alt="Gambar Kegiatan" class="mx-auto">
+            </div>
+          </div>
+        {{ end }}
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
     <hr class="my-8">
     <h2 class="text-center text-h3 mb-8 dark:text-darkmode-dark">{{ .Params.acara.title }}</h2>
     <p class="text-center text-lg dark:text-darkmode-text">
