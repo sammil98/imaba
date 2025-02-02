@@ -37,11 +37,29 @@ url = "/about"
 weight = 1
 
 [[footer]]
-name = "Kebijakan Privasi"
-url = "/privacy-policy"
+name = "Disclaimer"
+url = "/disclaimer"
 weight = 2
+
+
+[[footer]]
+name = "Kode Etik"
+url = "/kode-etik"
+weight = 3
+
+
+[[footer]]
+name = "Pedoman Media Siber"
+url = "/pedoman-media-siber"
+weight = 4
+
+
+[[footer]]
+name = "Ketentuan Penggunaan"
+url = "/ketentuan-penggunaan"
+weight = 5
 
 [[footer]]
 name = "Kontak Kami"
 url = "/contact"
-weight = 3
+weight = 6
