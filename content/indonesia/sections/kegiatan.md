@@ -5,21 +5,25 @@ description: "Berikut ini merupakan kegiatan dalam organisasi kami."
 
 # Kegiatan
 kegiatan:
+  - name: "Pelantikan Distrik UIN"
+    avatar: "/images/kegiatan/pelantikan-uin-24.jpeg"
+    content: "Ikatan Mahasiswa Bangkalan melaksanakan pelantikan kepengurusan Distrik Universitas Islam Negeri Maulana Malik Ibrahim Malang"
+
+  - name: "Buka Stand"
+    avatar: "/images/kegiatan/stand-kampus-3-uin-24.jpeg"
+    content: "Ikatan Mahasiswa Bangkalan Distrik Universitas Islam Negeri Maulana Malik Ibrahmim Malang melaksanakan kegiatan buka stand di Kampus 3 UINMA untuk mengenalkan IMABA pada mahasiswa baru yang kuliah di Kampus 3"
+
+  - name: "Kepenulisan Makalah"
+    avatar: "/images/kegiatan/kepenulisan-makalah-uin-24.jpeg"
+    content: "Ikatan Mahasiswa Bangkalan Distrik Universitas Islam Negeri Maulana Malik Ibrahmim Malang melaksanakan kegiatan pelatihan kepenulisan makalah yang sangat dibutuhkan oleh setiap mahasiswa, khususnya bagi mahasiswa baru menambah wawasan bagaimana kepenulisan makalah yang sesuai"
+
+  - name: "Maulid Nabi"
+    avatar: "/images/kegiatan/maulid-uin-24.jpeg"
+    content: "Ikatan Mahasiswa Bangkalan Distrik Universitas Islam Negeri Maulana Malik Ibrahmim Malang memperingatan hari kelahiran Nabi Muhammad SAW"
+
   - name: "Malam Keakraban"
     avatar: "/images/kegiatan/makrab-uin-24.jpeg"
     content: "Ikatan Mahasiswa Bangkalan Distrik Universitas Islam Negeri Maulana Malik Ibrahmim Malang Melakukan Kegiatan Malam Keakraban Anggota untuk mempererat dan saling mengenali lebih dalam satu sama lain"
-
-  - name: "Marvin McKinney"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
 # don't create a separate page
 _build:
