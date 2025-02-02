@@ -105,8 +105,8 @@
                             {{ partial "image" (dict "Src" .avatar "Size" "350x350" "Class" "rounded-full" "Alt" .name) }}
                           </div>
                           <div class="ml-4">
-                            <p class="h5 font-primary font-semibold">
-                              {{ .name }| markdownify }}
+                            <p class="text-dark dark:text-white">
+                              {{ .name | markdownify }}
                             </p>
                           </div>
                         </div>
