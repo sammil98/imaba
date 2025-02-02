@@ -26,8 +26,8 @@ vision_mission:
       - "Ikut terlibat aktif dalam penyelesaian masalah sosial masyarakat dan daerah."
 # Blog
 blog:
-  title: "Berita Terbaru"
-  button_text: "Lihat Semua Berita"
+  title: "Berita dan Opini"
+  button_text: "Lihat Pemberitaan dan Opini"
 # Struktur
 struktur:
   title: "Struktur Organisasi"
