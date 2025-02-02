@@ -97,9 +97,6 @@
                               fill="currentColor" />
                           </svg>
                         </div>
-                        <blockquote class="mt-8">
-                          {{ .content | markdownify }}
-                        </blockquote>
                         <div class="mt-11 flex flex-col items-center">
                           <div class="text-dark dark:text-white">
                             {{ partial "image" (dict "Src" .avatar "Size" "350x350" "Class" "rounded-full" "Alt" .name) }}
@@ -110,9 +107,9 @@
                             </h3>
                           </div>
                           <div class="mt-4 text-center">
-                            <p>
-                              {{ .description | markdownify }}
-                            </p>
+                            <blockquote class="mt-8">
+                              {{ .content | markdownify }}
+                            </blockquote>
                           </div>
                         </div>
                       </div>
