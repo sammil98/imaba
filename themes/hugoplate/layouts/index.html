@@ -100,7 +100,7 @@
                         <blockquote class="mt-8">
                           {{ .content | markdownify }}
                         </blockquote>
-                        <div class="mt-11 flex col items-center">
+                        <div class="mt-11 flex flex-col items-center">
                           <div class="text-dark dark:text-white">
                             {{ partial "image" (dict "Src" .avatar "Size" "350x350" "Class" "rounded-full" "Alt" .name) }}
                           </div>
