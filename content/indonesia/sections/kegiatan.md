@@ -7,7 +7,7 @@ description: "Berikut ini merupakan kegiatan dalam organisasi kami."
 kegiatan:
   - name: "Malam Keakraban"
     designation: "Web Designer"
-    avatar: "/images/kegiatan/makrab-uin-24"
+    avatar: "/images/kegiatan/makrab-uin-24.jpeg"
     content: "Ikatan Mahasiswa Bangkalan Distrik Universitas Islam Negeri Maulana Malik Ibrahmim Malang Melakukan Kegiatan Malam Keakraban Anggota untuk mempererat dan saling mengenali lebih dalam satu sama lain"
 
   - name: "Marvin McKinney"
