@@ -2,58 +2,23 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "assets/images"  # Folder untuk menyimpan gambar
-public_folder: "/images"      # Path publik untuk gambar
+# Pengaturan default untuk media folder dan public folder
+media_folder: "assets/images/blog"  # Folder untuk menyimpan gambar blog
+public_folder: "/images/blog"       # Path publik untuk gambar blog
 
 collections:
-  - name: "about"
-    label: "About"
-    folder: "content/indonesia/about"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "author"
-    label: "Author"
-    folder: "content/indonesia/author"
-    create: true
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Bio", name: "bio", widget: "markdown" }
-      - { label: "Photo", name: "photo", widget: "image" }
-
+  # Koleksi untuk Blog
   - name: "blog"
     label: "Blog"
     folder: "content/indonesia/blog"
     create: true
+    identifier_field: "slug"  # Field unik untuk mengidentifikasi postingan
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Featured Image", name: "image", widget: "image" }
-
-  - name: "contact"
-    label: "Contact"
-    folder: "content/indonesia/contact"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "pages"
-    label: "Pages"
-    folder: "content/indonesia/pages"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "section"
-    label: "Section"
-    folder: "content/indonesia/section"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { name: "title", label: "Judul", widget: "string", required: true }
+      - { name: "date", label: "Tanggal", widget: "datetime", default: "{{ now }}" }
+      - { name: "author", label: "Penulis", widget: "string", required: true }
+      - { name: "description", label: "Deskripsi", widget: "text", required: true }
+      - { name: "image", label: "Gambar Utama", widget: "image", required: true }
+      - { name: "categories", label: "Kategori", widget: "list", required: true }
+      - { name: "tags", label: "Tag", widget: "list", required: true }
+      - { name: "body", label: "Konten", widget: "markdown", required: true }

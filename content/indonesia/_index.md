@@ -24,14 +24,10 @@ vision_mission:
       - "Memperlihatkan eksistensi IMABA Malang Raya kepada masyarakat daerah."
       - "Berperan aktif dalam dunia kemahasiswaan, perguruan tinggi, dan kepemudaan untuk menopang pembangunan daerah."
       - "Ikut terlibat aktif dalam penyelesaian masalah sosial masyarakat dan daerah."
-# Kegiatan
-kegiatan:
-  title: "Kegiatan Terbaru"
-  message: "Dokumentasi kegiatan terbaru akan segera diunggah. Pantau terus website kami untuk info terkini!"
 # Blog
 blog:
-  title: "Berita Terbaru"
-  button_text: "Lihat Semua Berita"
+  title: "Berita dan Opini"
+  button_text: "Lihat Pemberitaan dan Opini"
 # Struktur
 struktur:
   title: "Struktur Organisasi"

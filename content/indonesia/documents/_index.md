@@ -2,6 +2,9 @@
 title: "Dokumen Organisasi"
 description: "Berikut adalah daftar dokumen yang dapat Anda akses langsung di halaman ini."
 ---
+{{< notice "info" >}}
+Temukan Dokumen yang Anda Butuhkan disini !!.
+{{< /notice >}}
 
 {{< tabs >}}
 
@@ -11,16 +14,16 @@ description: "Berikut adalah daftar dokumen yang dapat Anda akses langsung di ha
 <iframe src="https://drive.google.com/file/d/1xAnuX-wG6CwEi-5_z0kVCIftQsPzIvpI/preview" width="100%" height="600px" style="border: none;" allow="autoplay"></iframe>
 {{< /tab >}}
 
-{{< tab "Document 2" >}}
-##### Document 2
+{{< tab "Pedoman Organisasi" >}}
+##### Pedoman Organisasi
 
-<iframe src="/pdf/document2.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="https://drive.google.com/file/d/1XFPJSk0jOfcrNo4mhw3skJzskaqnSgCk/preview" width="100%" height="600px" style="border: none;" allow="autoplay"></iframe>
 {{< /tab >}}
 
-{{< tab "Document 3" >}}
-##### Document 3
+{{< tab "AD/ART IMABA" >}}
+##### AD/ART IMABA
 
-<iframe src="/pdf/document3.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="https://drive.google.com/file/d/1nnR495ZwRx3u_VpxKrCvDWCwr8z4cABN/preview" width="100%" height="600px" style="border: none;" allow="autoplay"></iframe>
 {{< /tab >}}
 
 {{< /tabs >}}
