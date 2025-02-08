@@ -10,8 +10,7 @@ draft: false
 
 ### Terms of Use
 
-Selamat datang di Ikatan Mahasiswa Bangkalan (IMABA) Malang Raya, situs berita yang dipublikasikan oleh PT Indopersda Primamedia, Divisi Koran Daerah Kompas Gramedia, Jakarta.
-Terms of Use atau Ketentuan Penggunaan berikut adalah ketentuan dalam penggunaan situs, konten, layanan, dan fitur yang ada di Ikatan Mahasiswa Bangkalan (IMABA) Malang Raya. Terms of Use ini juga berlaku sama untuk produk turunan dari situs ini.
+Selamat datang di Ikatan Mahasiswa Bangkalan (IMABA) Malang Raya. Terms of Use atau Ketentuan Penggunaan berikut adalah ketentuan dalam penggunaan situs, konten, layanan, dan fitur yang ada di Ikatan Mahasiswa Bangkalan (IMABA) Malang Raya. Terms of Use ini juga berlaku sama untuk produk turunan dari situs ini.
 Dengan mengakses dan menggunakan Ikatan Mahasiswa Bangkalan (IMABA) Malang Raya, berarti Anda telah memahami dan setuju untuk terikat dengan semua peraturan yang berlaku di situs ini. Jika Anda tidak setuju untuk terikat dengan semua peraturan yang berlaku, silakan untuk tidak menggunakan situs ini.
 
 #### Perubahan Terms of Use
