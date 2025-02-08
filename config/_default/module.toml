@@ -2,6 +2,9 @@
 extended = true
 min = "0.139.2"
 
+[[imports]]
+path = "https://github.com/decaporg/decap-cms"
+
 # [[imports]]
 # path = "github.com/zeon-studio/hugoplate"
 
