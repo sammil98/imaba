@@ -16,7 +16,6 @@ collections:
     identifier_field: "title"  # Field unik untuk mengidentifikasi penulis
     fields:
       - { name: visibleInCMS, widget: hidden, default: true }
-      - { label: "Penulis", name: "author", widget: "string", required: true }
       - { name: "title", label: "Nama Lengkap", widget: "string", required: true }
       - { name: "email", label: "Email Anda", widget: "string", required: true }
       - { name: "image", label: "Foto Profil", widget: "image", required: true }
@@ -34,7 +33,7 @@ collections:
     label: "Blog"
     folder: "content/indonesia/blog"
     create: true
-    filter: {field: visibleInCMS, value: true}
+    filter: {field: author, value: "auth.currentUser().user_metadata.full_name"}
     identifier_field: "title"  # Field unik untuk mengidentifikasi postingan
     fields:
       - { name: visibleInCMS, widget: hidden, default: true }
