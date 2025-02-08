@@ -33,7 +33,7 @@ collections:
     label: "Blog"
     folder: "content/indonesia/blog"
     create: true
-    filter: {field: author, value: "auth.currentUser().user_metadata.full_name"}
+    filter: {field: visibleInCMS, value: true}
     identifier_field: "title"  # Field unik untuk mengidentifikasi postingan
     fields:
       - { name: visibleInCMS, widget: hidden, default: true }
