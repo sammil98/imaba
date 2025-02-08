@@ -94,64 +94,6 @@ js_url = 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs'
 [widgets]
 sidebar = ["categories", "tags"]
 
-# Decap CMS (Netlify CMS) Configuration
-[params.decap_cms]
-  local_backend = false
-  [params.decap_cms.backend]
-    name = "git-gateway"
-  [params.decap_cms.media_folder]
-    name = "assets/images/blog"
-  [params.decap_cms.public_folder]
-    name = "/images/blog"
-  [params.decap_cms.collections]
-    [params.decap_cms.collections.blog]
-      create = true
-      folder = "content/indonesia/blog"
-      label = "Blog"
-      name = "blog"
-      identifier_field = "slug"
-      [[params.decap_cms.collections.blog.fields]]
-        label = "Judul"
-        name = "title"
-        widget = "string"
-        required = true
-      [[params.decap_cms.collections.blog.fields]]
-        label = "Tanggal"
-        name = "date"
-        widget = "datetime"
-        default = "{{ now }}"
-      [[params.decap_cms.collections.blog.fields]]
-        label = "Penulis"
-        name = "author"
-        widget = "string"
-        required = true
-        default = "{{user.username}}"
-      [[params.decap_cms.collections.blog.fields]]
-        label = "Deskripsi"
-        name = "description"
-        widget = "text"
-        required = true
-      [[params.decap_cms.collections.blog.fields]]
-        label = "Gambar Utama"
-        name = "image"
-        widget = "image"
-        required = true
-      [[params.decap_cms.collections.blog.fields]]
-        label = "Kategori"
-        name = "categories"
-        widget = "list"
-        required = true
-      [[params.decap_cms.collections.blog.fields]]
-        label = "Tag"
-        name = "tags"
-        widget = "list"
-        required = true
-      [[params.decap_cms.collections.blog.fields]]
-        label = "Konten"
-        name = "body"
-        widget = "markdown"
-        required = true
-
 # google map
 [google_map]
 enable = false

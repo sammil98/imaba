@@ -6,6 +6,10 @@ backend:
 media_folder: "assets/images/blog"  # Folder untuk menyimpan gambar blog
 public_folder: "/images/blog"       # Path publik untuk gambar blog
 
+filter:
+  - field: "author"
+    value: "{{user.username}}"
+
 collections:
   # Koleksi untuk Blog
   - name: "blog"
@@ -16,12 +20,9 @@ collections:
     fields:
       - { name: "title", label: "Judul", widget: "string", required: true }
       - { name: "date", label: "Tanggal", widget: "datetime", default: "{{ now }}" }
-      - { name: "author", label: "Penulis", widget: "string", required: true, default: "{{user.username}}" }
+      - { name: "author", label: "Penulis", widget: "string", required: true, default: "" }
       - { name: "description", label: "Deskripsi", widget: "text", required: true }
       - { name: "image", label: "Gambar Utama", widget: "image", required: true }
       - { name: "categories", label: "Kategori", widget: "list", required: true }
       - { name: "tags", label: "Tag", widget: "list", required: true }
       - { name: "body", label: "Konten", widget: "markdown", required: true }
-    filter:
-      - field: "author"
-        value: "{{user.username}}"
