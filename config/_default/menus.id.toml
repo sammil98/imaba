@@ -63,3 +63,8 @@ weight = 5
 name = "Kontak Kami"
 url = "/contact"
 weight = 6
+
+[[footer]]
+name = "IMABA Media"
+url = "/media"
+weight = 7
