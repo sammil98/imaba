@@ -37,7 +37,7 @@ collections:
     identifier_field: "title"  # Field unik untuk mengidentifikasi postingan
     fields:
       - { name: visibleInCMS, widget: hidden, default: true }
-      - { name: "author", label: "Penulis", widget: "relation", collection: "authors", search_fields: ["title"], value_field: "title", required: true }
+      - { label: "Penulis", name: "author", widget: "string" }
       - { name: "title", label: "Judul", widget: "string", required: true }
       - { label: "Judul di Google", name: "meta_title", widget: "string", required: false }
       - { label: "Ringkasan", name: "description", widget: "text" }
