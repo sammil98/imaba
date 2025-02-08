@@ -27,7 +27,6 @@ collections:
           - {label: "Nama Media Sosial", name: "name", widget: "select", options: ["whatsapp", "instagram", "facebook", "twitter", "tiktok", "linkedin"]}
           - {label: "Icon Media Sosial", name: "icon", widget: "select", options: ["fa-brands fa-whatsapp", "fa-brands fa-instagram", "fa-brands fa-facebook", "fa-brands fa-twitter", "fa-brands fa-tiktok", "fa-brands fa-linkedin"]}
           - {label: "Link Media Sosial anda", name: "link", widget: "string"}
-      *VISIBLE_IN_CMS
   
   - name: "blog"
     label: "Blog"
@@ -45,4 +44,3 @@ collections:
       - { label: "Kategori", name: "categories", widget: "select", options: ["Opini", "Berita", "Informasi"], required: true }
       - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: [], required: true }
       - { name: "body", label: "Konten", widget: "markdown", required: true }
-      *VISIBLE_IN_CMS
