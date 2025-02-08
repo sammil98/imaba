@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8" />
@@ -8,30 +8,5 @@
 </head>
 <body>
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-  <script>
-    CMS.init();
-
-    // Hook for filtering collections based on the logged-in user
-    CMS.registerEventListener({
-      name: 'preSave',
-      handler: ({ entry }) => {
-        const user = CMS.currentUser();
-        if (entry.get('data').get('author') && entry.get('data').get('author') !== user.login) {
-          throw new Error('You are not allowed to edit this entry.');
-        }
-        return entry;
-      }
-    });
-
-    // Set author field to the current user upon creation
-    CMS.registerEventListener({
-      name: 'prePublish',
-      handler: ({ entry }) => {
-        const user = CMS.currentUser();
-        entry.get('data').set('author', user.login);
-        return entry;
-      }
-    });
-  </script>
 </body>
 </html>
