@@ -11,7 +11,7 @@ collections:
   - name: "authors"
     label: "Penulis"
     folder: "content/indonesia/authors"
-    filter: {field: visibleInCMS, value: true}
+    filter: {field: title, value: true}
     create: true
     identifier_field: "title"  # Field unik untuk mengidentifikasi penulis
     fields:
@@ -32,7 +32,7 @@ collections:
     label: "Blog"
     folder: "content/indonesia/blog"
     create: true
-    filter: {field: visibleInCMS, value: true}
+    filter: {field: author, value: true}
     identifier_field: "title"  # Field unik untuk mengidentifikasi postingan
     fields:
       - { label: "Penulis", name: "author", widget: "string" }
