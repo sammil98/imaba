@@ -3,7 +3,7 @@ backend:
   branch: main
 
 # Pengaturan default untuk media folder dan public folder
-logo_url: "assets/images/favicon.png"
+logo_url: "/favicon.png"
 media_folder: "assets/images/blog"  # Folder untuk menyimpan gambar blog
 public_folder: "/images/blog"       # Path publik untuk gambar blog
 
@@ -37,7 +37,7 @@ collections:
     identifier_field: "title"  # Field unik untuk mengidentifikasi postingan
     fields:
       - { name: visibleInCMS, widget: hidden, default: true }
-      - { label: "Penulis", name: "author", widget: "string" }
+      - { name: "author", label: "Penulis", widget: "relation", collection: "authors", search_fields: ["title"], value_field: "title", required: true }
       - { name: "title", label: "Judul", widget: "string", required: true }
       - { label: "Judul di Google", name: "meta_title", widget: "string", required: false }
       - { label: "Ringkasan", name: "description", widget: "text" }
