@@ -7,7 +7,7 @@ description: Bagaimana organisasi beradaptasi di era digital? Temukan tantangan
   dan peluang yang dihadapi organisasi modern dalam artikel ini.
 date: 2025-02-09T00:34:59.676Z
 image: /images/blog/smartphone-1445489_640.jpg
-categories: Opini
+categories: Berita
 tags:
   - Organisasi
   - ""
