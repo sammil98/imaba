@@ -16,7 +16,7 @@ collections:
     fields:
       - { name: "title", label: "Nama Lengkap", widget: "string", required: true }
       - { name: "email", label: "Email Anda", widget: "string", required: true }
-      - { name: "image", label: "Foto Profil", widget: "image", required: true }
+      - { name: "image", label: "Foto Profil 3x4", widget: "image", required: true }
       - { name: "body", label: "Deskripsi Diri", widget: "text", required: true }
       - label: "Social Media Anda"
         name: "social"
