@@ -42,5 +42,5 @@ struktur:
   wakil:
     nama: "Jane Doe"
     jabatan: "Wakil Ketua"
-    image: "/images/pengurus/wakil.jpg"
+    image: "/images/pengurus/avatar.png"
 ---

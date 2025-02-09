@@ -3,22 +3,42 @@ backend:
   branch: main
 
 # Pengaturan default untuk media folder dan public folder
+logo_url: "/favicon.png"
 media_folder: "assets/images/blog"  # Folder untuk menyimpan gambar blog
 public_folder: "/images/blog"       # Path publik untuk gambar blog
 
 collections:
-  # Koleksi untuk Blog
+  - name: "authors"
+    label: "Penulis"
+    folder: "content/indonesia/authors"
+    create: true
+    identifier_field: "title"  # Field unik untuk mengidentifikasi penulis
+    fields:
+      - { name: "title", label: "Nama Lengkap", widget: "string", required: true }
+      - { name: "email", label: "Email Anda", widget: "string", required: true }
+      - { name: "image", label: "Foto Profil 3x4", widget: "image", required: true }
+      - { name: "body", label: "Deskripsi Diri", widget: "text", required: true }
+      - label: "Social Media Anda"
+        name: "social"
+        widget: "list"
+        allow_add: true
+        fields:
+          - {label: "Nama Media Sosial", name: "name", widget: "select", options: ["whatsapp", "instagram", "facebook", "twitter", "tiktok", "linkedin"]}
+          - {label: "Icon Media Sosial", name: "icon", widget: "select", options: ["fa-brands fa-whatsapp", "fa-brands fa-instagram", "fa-brands fa-facebook", "fa-brands fa-twitter", "fa-brands fa-tiktok", "fa-brands fa-linkedin"]}
+          - {label: "Link Media Sosial anda", name: "link", widget: "string"}
+  
   - name: "blog"
     label: "Blog"
     folder: "content/indonesia/blog"
     create: true
-    identifier_field: "slug"  # Field unik untuk mengidentifikasi postingan
+    identifier_field: "title"  # Field unik untuk mengidentifikasi postingan
     fields:
+      - { name: "author", label: "Penulis", widget: "relation", collection: "authors", search_fields: ["title"], value_field: "title", required: true }
       - { name: "title", label: "Judul", widget: "string", required: true }
+      - { label: "Judul di Google", name: "meta_title", widget: "string", required: false }
+      - { label: "Ringkasan", name: "description", widget: "text" }
       - { name: "date", label: "Tanggal", widget: "datetime", default: "{{ now }}" }
-      - { name: "author", label: "Penulis", widget: "string", required: true }
-      - { name: "description", label: "Deskripsi", widget: "text", required: true }
-      - { name: "image", label: "Gambar Utama", widget: "image", required: true }
-      - { name: "categories", label: "Kategori", widget: "list", required: true }
-      - { name: "tags", label: "Tag", widget: "list", required: true }
+      - { name: "image", label: "Thumbnail", widget: "image", required: true }
+      - { label: "Kategori", name: "categories", widget: "list", allow_add: true, default: [], required: true }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: [], required: true }
       - { name: "body", label: "Konten", widget: "markdown", required: true }

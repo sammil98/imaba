@@ -3,6 +3,8 @@ module hugoplate.netlify.app
 go 1.21
 
 require (
+	github.com/beevik/etree v1.1.0 // indirect
+	github.com/fatih/structs v1.1.0 // indirect
 	github.com/gethugothemes/hugo-modules/accordion v0.0.0-20250112030311-a0de82520a5a // indirect
 	github.com/gethugothemes/hugo-modules/adsense v0.0.0-20250112030311-a0de82520a5a // indirect
 	github.com/gethugothemes/hugo-modules/components/announcement v0.0.0-20250112030311-a0de82520a5a // indirect
@@ -27,4 +29,6 @@ require (
 	github.com/gethugothemes/hugo-modules/table-of-contents v0.0.0-20250112030311-a0de82520a5a // indirect
 	github.com/gethugothemes/hugo-modules/videos v0.0.0-20250112030311-a0de82520a5a // indirect
 	github.com/hugomods/mermaid v0.1.4 // indirect
+	github.com/ikeikeikeike/go-sitemap-generator v1.0.2 // indirect
+	github.com/imdario/mergo v0.3.7 // indirect
 )
