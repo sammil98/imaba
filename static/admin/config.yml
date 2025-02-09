@@ -7,15 +7,11 @@ logo_url: "/favicon.png"
 media_folder: "assets/images/blog"  # Folder untuk menyimpan gambar blog
 public_folder: "/images/blog"       # Path publik untuk gambar blog
 
-aliases:
-  - &VISIBLE_IN_CMS {name: visibleInCMS, widget: hidden, default: true}
-
 collections:
   - name: "authors"
     label: "Penulis"
     folder: "content/indonesia/authors"
     create: true
-    filter: {field: visibleInCMS, value: true}
     identifier_field: "title"  # Field unik untuk mengidentifikasi penulis
     fields:
       - { name: "title", label: "Nama Lengkap", widget: "string", required: true }
@@ -35,7 +31,6 @@ collections:
     label: "Blog"
     folder: "content/indonesia/blog"
     create: true
-    filter: {field: visibleInCMS, value: true}
     identifier_field: "title"  # Field unik untuk mengidentifikasi postingan
     fields:
       - { name: "author", label: "Penulis", widget: "relation", collection: "authors", search_fields: ["title"], value_field: "title", required: true }
