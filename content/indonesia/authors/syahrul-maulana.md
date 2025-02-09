@@ -9,3 +9,4 @@ social:
     icon: fa-brands fa-facebook
     link: https://facebook.com/wa.ainul
 ---
+Saya merupakan mahasiswa teknik industri dengan ketertarikan pada dunia bisini
