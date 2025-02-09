@@ -17,7 +17,7 @@ collections:
       - { name: "title", label: "Nama Lengkap", widget: "string", required: true }
       - { name: "email", label: "Email Anda", widget: "string", required: true }
       - { name: "image", label: "Foto Profil", widget: "image", required: true }
-      - { name: "description", label: "Deskripsi Diri", widget: "text", required: true }
+      - { name: "body", label: "Deskripsi Diri", widget: "text", required: true }
       - label: "Social Media Anda"
         name: "social"
         widget: "list"
@@ -39,6 +39,6 @@ collections:
       - { label: "Ringkasan", name: "description", widget: "text" }
       - { name: "date", label: "Tanggal", widget: "datetime", default: "{{ now }}" }
       - { name: "image", label: "Thumbnail", widget: "image", required: true }
-      - { label: "Kategori", name: "categories", widget: "select", options: ["Opini", "Berita", "Informasi"], required: true }
+      - { label: "Kategori", name: "categories", widget: "list", allow_add: true, default: [], required: true }
       - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: [], required: true }
       - { name: "body", label: "Konten", widget: "markdown", required: true }
