@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://imaba.web.id/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://imaba.web.id/about/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://imaba.web.id/blog/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://imaba.web.id/documents/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://imaba.web.id/authors/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://imaba.web.id/disclaimer/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://imaba.web.id/kode-etik/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://imaba.web.id/pedoman-media-siber/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://imaba.web.id/ketentuan-penggunaan/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://imaba.web.id/contact/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://imaba.web.id/media/</loc>
+  <lastmod>2025-02-11T03:42:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
