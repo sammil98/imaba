@@ -42,3 +42,19 @@ collections:
       - { label: "Kategori", name: "categories", widget: "list", allow_add: true, default: [], required: true }
       - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: [], required: true }
       - { name: "body", label: "Konten", widget: "markdown", required: true }
+
+  - name: "Info Kuliah Malang"
+    label: "Info Kuliah Malang"
+    folder: "content/indonesia/kuliah-malang"
+    create: true
+    identifier_field: "title"  # Field unik untuk mengidentifikasi postingan
+    fields:
+      - { name: "author", label: "Penulis", widget: "relation", collection: "authors", search_fields: ["title"], value_field: "title", required: true }
+      - { name: "title", label: "Judul", widget: "string", required: true }
+      - { label: "Judul di Google", name: "meta_title", widget: "string", required: false }
+      - { label: "Ringkasan", name: "description", widget: "text" }
+      - { name: "date", label: "Tanggal", widget: "datetime", default: "{{ now }}" }
+      - { name: "image", label: "Thumbnail", widget: "image", required: true }
+      - { label: "Kategori", name: "categories", widget: "list", allow_add: true, default: [], required: true }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: [], required: true }
+      - { name: "body", label: "Konten", widget: "markdown", required: true }
