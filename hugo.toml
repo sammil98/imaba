@@ -27,6 +27,13 @@ ID = 'G-KCLX07HYNY' # see https://gohugo.io/templates/internal/#configure-google
 #shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 
 
+########################## Sitemap ############################
+[sitemap]
+changefreq = "daily"
+priority = 0.5
+filename = "sitemap.xml"
+
+
 ########################## Permalinks ############################
 [permalinks.page]
 "pages" = "/:slugorfilename/"
