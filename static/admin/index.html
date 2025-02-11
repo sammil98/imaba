@@ -9,5 +9,51 @@
 </head>
 <body>
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      netlifyIdentity.init();
+
+      netlifyIdentity.on('init', user => {
+        if (user) {
+          const role = user.app_metadata.roles[0];
+          displayFeatures(role);
+        }
+      });
+
+      netlifyIdentity.on('login', user => {
+        const role = user.app_metadata.roles[0];
+        displayFeatures(role);
+      });
+
+      netlifyIdentity.on('logout', () => {
+        displayFeatures(null);
+      });
+
+      function displayFeatures(role) {
+        if (role === 'admin') {
+          document.getElementById('publish-button').style.display = 'block';
+          document.getElementById('write-button').style.display = 'block';
+        } else if (role === 'author') {
+          document.getElementById('publish-button').style.display = 'none';
+          document.getElementById('write-button').style.display = 'block';
+        } else {
+          document.getElementById('publish-button').style.display = 'none';
+          document.getElementById('write-button').style.display = 'none';
+        }
+      }
+    });
+  </script>
+  <style>
+    #publish-button, #write-button {
+      display: none;
+    }
+  </style>
+  <h1>Selamat Datang di CMS IMABA</h1>
+  <button id="publish-button">Publish</button>
+  <button id="write-button">Write</button>
+  <div>
+    <button onclick="netlifyIdentity.open()">Login</button>
+    <button onclick="netlifyIdentity.logout()">Logout</button>
+  </div>
 </body>
 </html>
