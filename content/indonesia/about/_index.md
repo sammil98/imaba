@@ -38,12 +38,12 @@ struktur:
       image: "/images/pengurus/Milaida-Saida.jpeg"
     - nama: "Hasim"
       jabatan: "Bendahara Umum"
-      image: "/images/pengurus/bendahara.jpg"
+      image: "/images/pengurus/Hasim.jpeg"
   pengurus_distrik:
     - nama: "Ach. Syaifullah"
       jabatan: "Ketua Umum Distrik UNISMA"
-      image: "/images/pengurus/distrik_a.jpg"
+      image: "/images/pengurus/avatar.png"
     - nama: "Moh. Abdus Salam"
       jabatan: "Ketua Umum Distrik UINMA"
-      image: "/images/pengurus/distrik_b.jpg"
+      image: "/images/pengurus/avatar.png"
 ---
