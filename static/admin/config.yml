@@ -7,8 +7,6 @@ logo_url: "/favicon.png"
 media_folder: "assets/images/blog"  # Folder untuk menyimpan gambar blog
 public_folder: "/images/blog"       # Path publik untuk gambar blog
 
-publish_mode: editorial_workflow
-
 collections:
   - name: "authors"
     label: "Penulis"
