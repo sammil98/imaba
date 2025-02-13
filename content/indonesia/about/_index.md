@@ -32,7 +32,7 @@ struktur:
       image: "/images/pengurus/ketua.jpg"
     - nama: "Khoirina Arifah Hasyim"
       jabatan: "Wakil Ketua Umum"
-      image: "/images/pengurus/Khoirina-Arifah-Hasyim"
+      image: "/images/pengurus/Khoirina-Arifah-Hasyim.jpeg"
     - nama: "Milaida Saida"
       jabatan: "Sekretaris Umum"
       image: "/images/pengurus/Milaida-Saida.jpeg"

@@ -42,5 +42,5 @@ struktur:
   wakil:
     nama: "Khoirina Arifah Hasyim"
     jabatan: "Wakil Ketua"
-    image: "/images/pengurus/Khoirina-Arifah-Hasyim"
+    image: "/images/pengurus/Khoirina-Arifah-Hasyim.jpeg"
 ---
