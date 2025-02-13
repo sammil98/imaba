@@ -40,7 +40,7 @@ struktur:
     jabatan: "Ketua Umum"
     image: "/images/pengurus/ketua.jpg"
   wakil:
-    nama: "Jane Doe"
+    nama: "Khoirina Arifah Hasyim"
     jabatan: "Wakil Ketua"
-    image: "/images/pengurus/avatar.png"
+    image: "/images/pengurus/Khoirina-Arifah-Hasyim"
 ---

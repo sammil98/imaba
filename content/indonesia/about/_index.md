@@ -30,9 +30,9 @@ struktur:
     - nama: "Ainul Muzammil"
       jabatan: "Ketua Umum"
       image: "/images/pengurus/ketua.jpg"
-    - nama: "Jane Doe"
+    - nama: "Khoirina Arifah Hasyim"
       jabatan: "Wakil Ketua Umum"
-      image: "/images/pengurus/wakil.jpg"
+      image: "/images/pengurus/Khoirina-Arifah-Hasyim"
     - nama: "Milaida Saida"
       jabatan: "Sekretaris Umum"
       image: "/images/pengurus/Milaida-Saida.jpeg"
@@ -45,5 +45,5 @@ struktur:
       image: "/images/pengurus/avatar.png"
     - nama: "Moh. Abdus Salam"
       jabatan: "Ketua Umum Distrik UINMA"
-      image: "/images/pengurus/avatar.png"
+      image: "/images/pengurus/Abdus-Salam.jpeg"
 ---
