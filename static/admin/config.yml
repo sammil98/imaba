@@ -58,3 +58,16 @@ collections:
       - { label: "Kategori", name: "categories", widget: "list", allow_add: true, default: [], required: true }
       - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: [], required: true }
       - { name: "body", label: "Konten", widget: "markdown", required: true }
+
+    - name: "Kegiatan"
+    label: "Kegiatan"
+    folder: "content/indonesia/kegiatan"
+    create: true
+    identifier_field: "title"  # Field unik untuk mengidentifikasi postingan
+    fields:
+      - { name: "title", label: "Nama Kegiatan", widget: "string", required: true }
+      - { label: "Judul di Google", name: "meta_title", widget: "string", required: false }
+      - { label: "Ringkasan", name: "description", widget: "text" }
+      - { name: "date", label: "Tanggal", widget: "datetime", default: "{{ now }}" }
+      - { name: "image", label: "Thumbnail", widget: "image", required: true }
+      - { name: "body", label: "Penjelasan Kegiatan", widget: "markdown", required: true }
