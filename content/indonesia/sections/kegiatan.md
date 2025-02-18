@@ -5,9 +5,17 @@ description: "Berikut ini merupakan kegiatan dalam organisasi kami."
 
 # Kegiatan
 kegiatan:
+  - name: "Coming Soon! - Seminar Nasional Pendidikan"
+    avatar: "/images/kegiatan/semnas-pendidikan-mas-anam.jpeg"
+    content: "Kegiatan Akan Datang! Ikatan Mahasiswa Bangkalan melaksanakan seminar nasional bertemakan pendidikan dengan pemateri Choirul Anam dari PPI Dunia. Acara ini kerjasama dengan DMB Jabodetabek"
+
   - name: "Pelantikan Distrik UIN"
     avatar: "/images/kegiatan/pelantikan-uin-24.jpeg"
     content: "Ikatan Mahasiswa Bangkalan melaksanakan pelantikan kepengurusan Distrik Universitas Islam Negeri Maulana Malik Ibrahim Malang"
+
+  - name: "Pelantikan Distrik UNISMA"
+    avatar: "/images/kegiatan/pelantikan-unisma-24.JPG"
+    content: "Ikatan Mahasiswa Bangkalan melaksanakan pelantikan kepengurusan Distrik Universitas Islam Malang"
 
   - name: "Buka Stand"
     avatar: "/images/kegiatan/stand-kampus-3-uin-24.jpeg"
