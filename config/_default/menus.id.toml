@@ -17,7 +17,12 @@ url = "/blog"
 weight = 3
 
 [[main]]
+name = "Kegiatan"
+url = "/kegiatan"
 weight = 4
+
+[[main]]
+weight = 5
 name = "Informasi Lainnya"
 
 [[main]]
@@ -29,6 +34,11 @@ url = "/documents"
 parent = "Informasi Lainnya"
 name = "Penulis Kami"
 url = "/authors"
+
+[[main]]
+parent = "Informasi Lainnya"
+name = "Kuliah Malang"
+url = "/kuliah-malang"
 
 # menu footer
 [[footer]]
