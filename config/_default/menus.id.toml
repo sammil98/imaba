@@ -12,13 +12,13 @@ url = "/about"
 weight = 2
 
 [[main]]
-name = "Blog"
-url = "/blog"
+name = "Kegiatan"
+url = "/kegiatan"
 weight = 3
 
 [[main]]
-name = "Kegiatan"
-url = "/kegiatan"
+name = "Blog"
+url = "/blog"
 weight = 4
 
 [[main]]
