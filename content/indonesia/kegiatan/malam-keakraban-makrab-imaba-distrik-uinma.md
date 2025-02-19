@@ -1,5 +1,5 @@
 ---
-author: Ainul Muzammil
+author: IMABA Distrik UINMA
 title: Malam Keakraban (Makrab) IMABA Distrik UINMA
 meta_title: Malam Keakraban IMABA Distrik UINMA - Membangun Kebersamaan
 description: Ikatan Mahasiswa Bangkalan mengadakan Malam Keakraban (Makrab)

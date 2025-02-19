@@ -1,5 +1,5 @@
 ---
-author: Ainul Muzammil
+author: IMABA Distrik UINMA
 title: Membuka Stand IMABA di Kampus 3 UIN
 meta_title: Buka Stand IMABA di Kampus 3 UIN Maulana Malik Ibrahim, Pengurus
   Kenalkan IMABA pada mahasiswa baru

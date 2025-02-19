@@ -1,5 +1,5 @@
 ---
-author: Ainul Muzammil
+author: IMABA Malang Raya
 title: Akan Datang - Seminar Nasional Pendidikan
 meta_title: Seminar Nasional Pendidikan Choirul Anam PPI Dunia - IMABA
 description: Ikatan Mahasiswa Bangkalan kerjasama dengan organisasi mahasiswa

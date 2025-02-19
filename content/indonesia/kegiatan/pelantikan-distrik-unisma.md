@@ -1,5 +1,5 @@
 ---
-author: Ainul Muzammil
+author: IMABA Malang Raya
 title: Pelantikan Distrik UNISMA
 meta_title: Pelantikan Pengurus Distrik UNISMA - IMABA
 description: Pelantikan kepengurusan Distrik Universitas Islam Malang (UNISMA)

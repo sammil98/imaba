@@ -1,5 +1,5 @@
 ---
-author: Ainul Muzammil
+author: IMABA Malang Raya
 title: Pelantikan IMABA Distrik UINMA
 meta_title: Pelantikan Pengurus Distrik UINMA - IMABA
 description: Ikatan Mahasiswa Bangkalan Malang Raya melaksanakan pelantikan

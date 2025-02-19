@@ -1,5 +1,5 @@
 ---
-author: Ainul Muzammil
+author: IMABA Distrik UINMA
 title: Distrik UINMA Mengadakan Acara Peringatan Maulid Nabi Muhammad SAW
 meta_title: IMABA Distrik UINMA Mengadakan Acara Memperingati Maulid Nabi Muhammad SAW
 description: Ikatan Mahasiswa Bangkalan memperingati hari kelahiran Nabi

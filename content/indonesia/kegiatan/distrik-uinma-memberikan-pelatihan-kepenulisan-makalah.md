@@ -1,5 +1,5 @@
 ---
-author: Ainul Muzammil
+author: IMABA Distrik UINMA
 title: Distrik UINMA Memberikan Pelatihan Kepenulisan Makalah
 meta_title: IMABA Distrik UINMA Memberikan Pelatihan Kepenulisan Makalah Untuk
   Mempersiapkan Mahasiswa Baru Menghadapi Perkuliahan
