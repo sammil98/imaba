@@ -5,13 +5,14 @@ meta_title: Seminar Nasional Pendidikan Choirul Anam PPI Dunia - IMABA
 description: Ikatan Mahasiswa Bangkalan kerjasama dengan organisasi mahasiswa
   daerah Bangkalan yang berada di berbagai Kota menghadirkan Seminar Nasional
   Pendidikan dengan pemateri Choirul Anam dari PPI Dunia.
-date: 2025-02-19T03:19:49.937Z
+date: 2025-02-19T09:55:29.620Z
 image: /images/kegiatan/semnas-pendidikan-mas-anam.jpeg
 categories:
   - Seminar
   - Pendidikan
   - ""
 tags:
+  - Choirul
   - Anam
   - PPI
   - ""
