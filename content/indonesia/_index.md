@@ -24,6 +24,7 @@ vision_mission:
       - "Memperlihatkan eksistensi IMABA Malang Raya kepada masyarakat daerah."
       - "Berperan aktif dalam dunia kemahasiswaan, perguruan tinggi, dan kepemudaan untuk menopang pembangunan daerah."
       - "Ikut terlibat aktif dalam penyelesaian masalah sosial masyarakat dan daerah."
+      - "Terlibat aktif dalam pengembangan sosial serta penyelesaian masalah-masalah sosial masyarakat dan daerah."
 # Blog
 blog:
   title: "Berita dan Opini"
