@@ -62,10 +62,10 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Ikatan", "Mahasiswa", "Bangkalan"]
-description = "Akompol Setretanan"
+keywords = ["Ikatan", "Mahasiswa", "Bangkalan", "imaba" ]
+description = "Mahasiswa Bangkalan di Malang"
 author = "Ainul Muzammil"
-twitter = "Ainul Muzammil"
+twitter = ""
 image = "images/og-image.png"
 
 
