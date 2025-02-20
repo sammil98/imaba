@@ -14,6 +14,7 @@ tags:
   - Belajar
   - Kehidupan
   - ""
+draft: true
 ---
 Stres merupakan bagian tak terpisahkan dari kehidupan kehidupan kita sebagai manusia. Setiap individu pasti mengalaminya, baik mahasiswa, pekerja, maupun ibu rumah tangga, mengalami tekanan dalam berbagai bentuk. Bagi mahasiswa, stres bisa datang dari tugas akademik dan tuntutan sosial, sedangkan bagi pekerja, tekanan kerja dan tanggung jawab finansial sering menjadi sumber utama stres. Namun, memahami stres dan cara mengelolanya dapat membantu siapa saja tetap produktif dan menjaga kesehatan mentalnya.
 
