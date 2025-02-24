@@ -5,7 +5,7 @@ meta_title: Belajar Kehidupan Beberapa Hal yang Tidak Akan Pernah Terpisahkan da
 description: Sebagai manusia yang masih merasakan kehidupan, sadar ataupun tidak
   sadar, suka maupun tidak suka ada beberapa hal yang terus mengiringi kedihupan
   kita semua. Apa saja hal tersebut?
-date: "{{ now }}"
+date: 2025-02-24T07:17:43.943Z
 image: /images/blog/cbf66ecc-5846-479d-9ea7-4860e9b7f305.png
 categories:
   - Opini
