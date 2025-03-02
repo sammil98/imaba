@@ -42,7 +42,7 @@ struktur:
   pengurus_distrik:
     - nama: "Ach. Syaifullah"
       jabatan: "Ketua Umum Distrik UNISMA"
-      image: "/images/pengurus/avatar.png"
+      image: "/images/pengurus/Syaifullah.jpeg"
     - nama: "Moh. Abdus Salam"
       jabatan: "Ketua Umum Distrik UINMA"
       image: "/images/pengurus/Abdus-Salam.jpeg"
