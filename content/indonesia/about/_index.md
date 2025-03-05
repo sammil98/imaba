@@ -25,7 +25,7 @@ struktur:
   pelindung:
     nama: "Bupati Bangkalan"
     jabatan: "Pelindung Organisasi"
-    image: "/images/pengurus/avatar.png"
+    image: "/images/pengurus/Bupati.jpeg"
   pengurus_harian:
     - nama: "Ainul Muzammil"
       jabatan: "Ketua Umum"
