@@ -1,5 +1,5 @@
 ---
-author: Ainul Muzammil
+author: IMABA Malang Raya
 title: "Seminar Nasional Pendidikan 2025: Refleksi Kemauan dan Kemampuan
   Mahasiswa Daerah"
 meta_title: Laporan Kegiatan Seminar Nasional Pendidikan Kerjasama dengan DMB Jabodetabek
