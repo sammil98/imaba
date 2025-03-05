@@ -16,8 +16,6 @@ tags:
   - Anam
   - PPI
 ---
-# **Laporan Kegiatan Seminar Nasional Pendidikan 2025**  
-📌 **Tema:** *Refleksi Kemauan dan Kemampuan Mahasiswa Daerah*  
 📅 **Tanggal Pelaksanaan:** 25 Februari 2025  
 📍 **Lokasi:** ZOOM Meeting  
 🎙 **Pembicara Utama:** Choirul Anam (PPI Dunia)  
