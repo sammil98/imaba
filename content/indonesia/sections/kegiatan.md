@@ -5,6 +5,10 @@ description: "Berikut ini merupakan kegiatan dalam organisasi kami."
 
 # Kegiatan
 kegiatan:
+  - name: "Seminar Nasional Pendidikan : Refleksi Kemauan dan Kemampuan Mahasiswa Daerah"
+    avatar: "/images/kegiatan/semnas-pendidikan-mas-anam.jpeg"
+    content: "Kegiatan Seminar Nasional Kerjasama dengan DMB Jabodetabek. Choirul Anam PPI Dunia Ingatkan Mahasiswa Daerah Untuk Memiliki Kemauan yang Tinggi dibersamai Kemampuan Mahasiswa, Anam Mengingatkan Mahasiswa Daerah Agar Dapat Menyampaikan Aspirasinya bagi Daerah Melalui Narasi ataupun Roadmap sebagai bagian dari Expert Community."
+
   - name: "Coming Soon! - Seminar Nasional Pendidikan"
     avatar: "/images/kegiatan/semnas-pendidikan-mas-anam.jpeg"
     content: "Kegiatan Akan Datang! Ikatan Mahasiswa Bangkalan melaksanakan seminar nasional bertemakan pendidikan dengan pemateri Choirul Anam dari PPI Dunia. Acara ini kerjasama dengan DMB Jabodetabek"
